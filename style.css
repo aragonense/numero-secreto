@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+:root{
+    --font-family: 'Ubuntu', sans-serif;
+    --bg-color: #3B3486 ;
+    --primary-color: #FCFDF2;
+
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);    
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem;
+   
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+  font-size: 2rem;
+  margin-top: 1rem;  
+}
+
+.mensagem{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+.numero-secreto{
+    font-size: 3rem;
+    color: yellow;
+}
+.titulo-acertou{
+    color: yellow;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: flex;
+    font-size: 8rem;
+    justify-content: center;
+    padding: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.elemento-referenciado {
+    border: 30px solid blue;
+    background-color: rgb(150, 215, 255);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.elemento-referenciado:hover { 
+    border: 30px solid blue;
+    background-color: rgb(150, 215, 255);
+    transition: 1s;  
+}
+#menor-valor, #maior-valor{
+    color: yellow;
+    font-size: 3rem;
+}
+.btn-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
