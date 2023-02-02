@@ -19,7 +19,9 @@ function verificaSeChuteValorValido(chute){
             <h2 class=titulo-acertou>Você acertou!</h2>
             <h3>O número secreto era<span class="numero-secreto"> ${numeroSecreto}</span></h3>
             <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>
+
         `
+        recognition.end()
     } else if (numero > numeroSecreto) {
        
         elementoChute.innerHTML += `
